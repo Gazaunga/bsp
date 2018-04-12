@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sxhkd &
+compton &
+bash ~/bin/bar.sh
+dunst &
+conky &
