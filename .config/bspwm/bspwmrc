@@ -14,6 +14,9 @@ dunst &
 conky &
 urxvtd -q -o -f
 
+bspc config border_width            0
+bspc config window_gap              5
+
 bspc monitor -d ㆀ ㆁ ㆂ  ㆃ ㆄ ㆅ ㆆ ㆇ ㆈ ㆉ
 
 bspc rule -a mpv follow=off state=floating
