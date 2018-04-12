@@ -4,6 +4,9 @@
 ## ├┴┐└─┐├─┘││││││
 ## └─┘└─┘┴  └┴┘┴ ┴
 
+# source file from currentdir/topdir down
+#source $(dirname $0)/config
+
 sxhkd &
 compton &
 bash ~/bin/bar.sh
