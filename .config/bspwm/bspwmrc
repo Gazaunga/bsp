@@ -27,6 +27,11 @@ bspc config gapless_monocle      true
 
 #bspc desktop I --layout monocle
 
+bspc config pointer_modifier mod4
+bspc config pointer_action2 move
+bspc config pointer_action1 resize_corner
+bspc config pointer_action3 resize_side
+
 #bspc rule -a XTerm desktop='^2'
 #bspc rule -a Gimp desktop='^5' state=floating follow=on
 #bspc config focus_follows_pointer true
@@ -34,3 +39,9 @@ bspc config gapless_monocle      true
 bspc monitor -d ㆀ ㆁ ㆂ  ㆃ ㆄ ㆅ ㆆ ㆇ ㆈ ㆉ
 
 bspc rule -a mpv follow=off state=floating
+
+xrdb -merge ~/.Xresources
+
+# adapt to your own terminator emulator
+bspc rule -a scratchpad sticky=on state=floating hidden=on
+st -c scratchpad -e ~/bin/scratch &
