@@ -9,3 +9,4 @@ compton &
 bash ~/bin/bar.sh
 dunst &
 conky &
+urxvtd -q -o -f
