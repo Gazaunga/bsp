@@ -10,3 +10,7 @@ bash ~/bin/bar.sh
 dunst &
 conky &
 urxvtd -q -o -f
+
+bspc monitor -d ㆀ ㆁ ㆂ  ㆃ ㆄ ㆅ ㆆ ㆇ ㆈ ㆉ
+
+bspc rule -a mpv follow=off state=floating
