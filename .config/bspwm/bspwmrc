@@ -17,6 +17,19 @@ urxvtd -q -o -f
 bspc config border_width            0
 bspc config window_gap              5
 
+bspc config split_ratio          0.52
+
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+#bspc config history_aware_focus     true
+#bspc config adaptive raise          true
+
+#bspc desktop I --layout monocle
+
+#bspc rule -a XTerm desktop='^2'
+#bspc rule -a Gimp desktop='^5' state=floating follow=on
+#bspc config focus_follows_pointer true
+
 bspc monitor -d ㆀ ㆁ ㆂ  ㆃ ㆄ ㆅ ㆆ ㆇ ㆈ ㆉ
 
 bspc rule -a mpv follow=off state=floating
