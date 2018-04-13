@@ -250,7 +250,7 @@ c.tabs.show = 'multiple'
 # c.url.default_page = 'https://start.duckduckgo.com/'
 # c.url.incdec_segments = ['path', 'query']
 c.url.searchengines = {'DEFAULT': 'http://www.duckduckgoog.com/search?q={}'}
-c.url.start_pages = ['/home/gazbit/.startpage/retro-crt/src/index.html']
+c.url.start_pages = ['/home/gazbit/.startpage/circles/index.html']
 # c.url.yank_ignored_parameters = ['ref', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content']
 
 # c.window.hide_wayland_decoration = False
