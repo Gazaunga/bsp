@@ -1,0 +1,206 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>おかえり</title>
+    <meta name="description" content="startpage">
+    <meta name="author" content="cappy">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animsition/css/animsition.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+
+<body class="animsition">
+	<div id="home"></div>
+	<div id="contain">
+		<div id="time"></div>
+		
+		<div id="search">
+			<form class="searchForm" method="get" action="https://google.com/search">
+				<input class="searchBar search_google" autocomplete="off" type="text" name="q" placeholder="search" autofocus search_/>
+			</form>
+		</div>
+		
+		<div id="links">
+			<ul>
+				<li class="labels" id="art">
+					<i class="material-icons">brush</i>
+					<!--art-->
+					<div class="box">
+						<ul>
+							<li>
+								<a href="http://www.metaflop.com/modulator">
+									metaflop
+								</a>
+							</li>
+
+							<li>
+								<a href="http://david.li/paint/">
+									Art Tools
+								</a>
+							</li>
+
+							<li>
+								<a href="http://dataviz.tools/">
+									free paint
+								</a>
+							</li>
+
+							<li>
+								<a href="http://www.pixiv.net/">
+									pixiv
+								</a>
+							</li>
+
+							<li>
+								<a href="http://danbooru.donmai.us/">
+									booru
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="labels"id="school">
+					<i class="material-icons">school</i>
+					<!--school-->
+					<div class="box">
+						<ul>
+							<li>
+								<a href="http://towsonustore.com/home.aspx">
+									ustore
+								</a>
+							</li>
+
+							<li>
+								<a href="http://www.towson.edu/">
+									towson
+								</a>
+							</li>
+
+							<li>
+								<a href="http://towsonustore.tumblr.com/">
+									tumblr
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="labels" id="work">
+					<i class="material-icons">work</i>
+					<!--work-->
+					<div class="box" id="work">
+						<ul>
+							<li>
+								<a href="overleaf.com">
+									overleaf
+								</a>
+							</li>
+
+							<li>
+								<a href="http://www.tlhiv.org/mppreview/">
+									metapost
+								</a>
+							</li>
+
+							<li>
+								<a href="http://pythonfiddle.com/">
+									python
+								</a>
+							</li>
+
+							<li>
+								<a href="http://rst.ninjs.org/">
+									rest
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="labels" id="fun">
+					<i class="material-icons">toys</i>
+					<!--fun-->
+					<div class="box" id="fun">
+						<ul>
+							<li>
+								<a href="https://www.youtube.com/">
+									youtube
+								</a>
+							</li>
+
+							<li>
+								<a href="http://dynasty-scans.com/chapters/added">
+									dynasty
+								</a>
+							</li>
+
+							<li>
+								<a href="https://www.reddit.com/">
+									reddit
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="labels" id="chan">
+					<i class="material-icons">gradient</i>
+					<!--4chan-->
+					<div class="box" id="subreddit">
+						<ul>
+							<li>
+								<a href="https://www.reddit.com/r/GenderCritical/">
+									gc
+								</a>
+							</li>
+
+							<li>
+								<a href="https://www.reddit.com/r/dwarffortress/">
+									df
+								</a>
+							</li>
+
+							<li>
+								<a href="https://www.reddit.com/r/unixporn/">
+									up
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+	<script src="animsition/js/animsition.js"></script>
+	<script>
+		$(document).ready(function() {
+		  $(".animsition").animsition({
+			inClass: 'fade-in',
+			outClass: 'fade-out',
+			inDuration: 1500,
+			outDuration: 800,
+			linkElement: '.animsition-link',
+			// e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+			loading: true,
+			loadingParentElement: 'body', //animsition wrapper element
+			loadingClass: 'animsition-loading',
+			loadingInner: '', // e.g '<img src="loading.svg" />'
+			timeout: false,
+			timeoutCountdown: 5000,
+			onLoadEvent: true,
+			browser: [ 'animation-duration', '-webkit-animation-duration'],
+			// "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+			// The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+			overlay : false,
+			overlayClass : 'animsition-overlay-slide',
+			overlayParentElement : 'body',
+			transition: function(url){ window.location.href = url; }
+		  });
+		});
+	</script>
+</body>
+</html>
