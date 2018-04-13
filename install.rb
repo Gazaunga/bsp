@@ -2,6 +2,11 @@
 
 require 'fileutils'
 
+filename = "packagelist" # more specific?
+
+app_list = File.open(filename, "r")
+
+install = ->app{ `trizen -Syu --noconfirm #{app}` }
 
 ## METHODS ##
 
@@ -25,4 +30,4 @@ grab_wallpaper
 grab_fonts
 make_spacemacs
 Dir.glob("#{Dir.home}/bsp/.", File::FNM_DOTMATCH).each { |f| FileUtils.cp_r("#{f}", DESTINATION, :verbose => true) }
-`bash install.sh`
+app_list.each_line &install
