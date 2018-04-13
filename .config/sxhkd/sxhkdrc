@@ -6,7 +6,7 @@
 
 ## terminal
 alt + Return
-	rxvt-unicode
+	urxvt
   
 # program search
 super + space
