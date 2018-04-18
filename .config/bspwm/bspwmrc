@@ -11,7 +11,8 @@ xrandr --mode 1920x1080
 sxhkd &
 compton &
 #bash ~/bin/bar.sh
-#polybar example &
+polybar bottom&
+polybar top&
 dunst &
 conky &
 feh --randomize --bg-fill ~/.wallpapers/*
