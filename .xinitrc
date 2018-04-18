@@ -5,8 +5,7 @@ compton &
 #bash ~/bin/bar.sh
 #conky &
 feh --randomize --bg-fill ~/.wallpapers/*
-polybar bottom&
-polybar top&
+bash ~/bin/polybar.sh
 xrdb -merge ~/.Xresources
 urxvtd -q -o -f
 exec bspwm
