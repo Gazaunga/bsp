@@ -74,8 +74,8 @@ modules-right = mpd
 modules-left = hostname
 modules-center =
 
-[module/bsp]
-type = internal/bsp
+[module/bspwm]
+type = internal/bspwm
 
 format = <label-state>
 index-sort = true
