@@ -44,7 +44,7 @@ bspc config pointer_action3 resize_side
 #bspc rule -a Gimp desktop='^5' state=floating follow=on
 #bspc config focus_follows_pointer true
 
-bspc monitor -d ㆀ ㆁ ㆂ  ㆃ ㆄ ㆅ ㆆ ㆇ ㆈ ㆉ
+bspc monitor -d 一 二 三 四 五
 
 bspc rule -a mpv follow=off state=floating
 #bspc rule -a Emacs state=tiled
