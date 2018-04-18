@@ -35,7 +35,7 @@ def atom_install(a)
 end
 
 def grab_wallpaper
-status = system("git clone https://github.com/Gazaunga/Wallpapers ~/.wallpapers")
+status = system("git clone https://github.com/Gazaunga/.wallpapers")
 puts status ? "Success" : "Failed"
 end
 
