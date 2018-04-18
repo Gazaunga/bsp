@@ -11,7 +11,7 @@ alt + Return
 	xterm
   
 # program search
-alt + shift + d
+alt + shift + p
   bash ~/bin/rofi-apps
 
 # j4
