@@ -10,9 +10,12 @@
 xrandr --mode 1920x1080
 sxhkd &
 compton &
-bash ~/bin/bar.sh
+#bash ~/bin/bar.sh
+#polybar example &
 dunst &
 conky &
+feh --randomize --bg-fill ~/.wallpapers/*
+xrdb -merge ~/.Xresources
 urxvtd -q -o -f
 
 bspc config border_width            0
@@ -24,6 +27,10 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 #bspc config history_aware_focus     true
 #bspc config adaptive raise          true
+
+bspc config normal_border_color '#e00043'
+bspc config focused_border_color '#003da7'
+bspc config urgent_border_color '#ff7a99'
 
 #bspc desktop I --layout monocle
 
@@ -39,9 +46,9 @@ bspc config pointer_action3 resize_side
 bspc monitor -d ㆀ ㆁ ㆂ  ㆃ ㆄ ㆅ ㆆ ㆇ ㆈ ㆉ
 
 bspc rule -a mpv follow=off state=floating
-
-xrdb -merge ~/.Xresources
+#bspc rule -a Emacs state=tiled
+bspc rule -a Emacs state=monocle
 
 # adapt to your own terminator emulator
-bspc rule -a scratchpad sticky=on state=floating hidden=on
-urxvt -name scratchpad -e ~/bin/scratch &
+#bspc rule -a scratchpad sticky=on state=floating hidden=on
+#urxvt -name scratchpad -e ~/bin/scratch &
