@@ -8,7 +8,7 @@
 
 ## terminal
 alt + Return
-	urxvt
+	xterm
   
 # program search
 alt + shift + d
@@ -27,7 +27,7 @@ alt + shift + e
 	bspc quit
 
 # close and kill
-alt + {_,shift + }w
+alt + {_,shift + }q
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
@@ -156,9 +156,11 @@ super + shift + g : {1,2,3}
 }
 
 #editors
-super + e ; {n,v}
-  {urxvt -e "emacs -fs", "atom -w"}
-}
+#super + e ; {n,v}
+#  {urxvt -e "emacs -fs", "atom -w"}
+#}
+super + e
+	emacs -fs
 
 #random wall
 super + shift + p
