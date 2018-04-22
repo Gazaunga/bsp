@@ -7,17 +7,17 @@
 # source file from currentdir/topdir down
 #source $(dirname $0)/config
 
-xrandr --mode 1920x1080
-sxhkd &
-compton &
+#xrandr --mode 1920x1080
+#sxhkd &
+#compton &
 #bash ~/bin/bar.sh
-polybar bottom&
-polybar top&
-dunst &
-conky &
-feh --randomize --bg-fill ~/.wallpapers/*
-xrdb -merge ~/.Xresources
-urxvtd -q -o -f
+#polybar bottom&
+#polybar top&
+#dunst &
+#conky &
+#feh --randomize --bg-fill ~/.wallpapers/*
+#xrdb -merge ~/.Xresources
+#urxvtd -q -o -f
 
 bspc config border_width            0
 bspc config window_gap              8
