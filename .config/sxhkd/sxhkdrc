@@ -21,6 +21,10 @@ alt + d
   # make sxhkd reload its configuration files:
 super + shift + c
 	pkill -USR1 -x sxhkd
+	
+# scrot
+super + shift + p
+        scrot && pkill scrot
   
 # quit bspwm normally
 alt + shift + e
