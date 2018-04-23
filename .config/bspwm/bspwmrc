@@ -50,6 +50,7 @@ bspc rule -a mpv follow=off state=floating
 #bspc rule -a Emacs state=tiled
 bspc rule -a Emacs state=monocle
 bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a File-roller state=floating
 
 # adapt to your own terminator emulator
 #bspc rule -a scratchpad sticky=on state=floating hidden=on
