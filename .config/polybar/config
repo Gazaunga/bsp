@@ -49,10 +49,14 @@ background = ${colors.background}
 foreground = ${colors.foreground}
 module-margin-left = 2
 module-margin-right = 0
-modules-left = i3
+modules-left = bspwm xwindow
 modules-center = date weather
 modules-right = volume wlan ip battery powermenu
 
+wm-restack = bspwm
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
 
 [bar/bottom]
 locale = en_UTF-8
