@@ -8,7 +8,7 @@ URxvt.allow_bold: true
 
 urxvt*scrollBar:            false
 
-URxvt.font: xft:Iosevka Term:pixelsize=12,xft:DejaVu Sans Mono:pixelsize=14
+URxvt.font: xft:Iosevka Term:pixelsize=12,xft:DejaVu Sans Mono:pixelsize=14,-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
 URxvt.boldFont: xft:Iosevka Term:pixelsize=12:bold,xft:DejaVu Sans Mono:pixelsize=14:bold
 URxvt.italicFont: xft:Iosevka Term:pixelsize=12:italic,xft:DejaVu Sans Mono:pixelsize=14:italic
 URxvt.bolditalicFont: xft:Iosevka Term:pixelsize=12:bold:italic,xft:DejaVu Sans Mono:pixelsize=14:bold:italic
