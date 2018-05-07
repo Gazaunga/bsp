@@ -68,3 +68,10 @@ bspc rule -a feh state=floating rectangle=1200x900+320+100
 #urxvt -name scratchpad -e ~/bin/scratch &
 
 compton &
+
+if [ "$1" = "reload" ]; then
+    echo "reloaded config."
+else
+    "$BSPWM_CONFIG/autostart" &
+    #"$HOME/.scripts/toggle-gaps.sh" gaps &
+fi
