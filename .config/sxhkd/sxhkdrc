@@ -178,3 +178,21 @@ F12
   # scratch
   id=$(cat /tmp/scratchid);\
 bspc node $id --flag hidden;bspc node -f $id
+###
+super + F1
+    bartermapp calcurse 1
+super + F2
+    bartermapp ranger 2
+super + F3
+    bartermapp newsboat 3
+super + F4
+    bartermapp ncmpcpp 4
+super + F5
+    bartermapp editnote 5
+
+# program launcher
+super + @space
+    rofi -show run -font "M+ 1mn 12"
+
+super + backslash
+    tdrop -ma -w 1188 -x 350 -h 27% -y 52 urxvt
