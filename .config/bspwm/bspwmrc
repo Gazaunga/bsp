@@ -24,8 +24,8 @@ color6=$(xrdb -query | grep "color6" | cut -f2 | sed -r 's/#//' | head -n 1)
 color7=$(xrdb -query | grep "color7" | cut -f2 | sed -r 's/#//' | head -n 1)
 color8=$(xrdb -query | grep "color8" | cut -f2 | sed -r 's/#//' | head -n 1)
 
-bspc config border_width            6
-bspc config window_gap              12
+bspc config border_width            5
+bspc config window_gap              25
 bspc config bottom_padding      0
 bspc config left_padding        0
 bspc config right_padding 0
