@@ -1,3 +1,40 @@
+!┌──────────────────────────────────────────────────────────────────────────┐
+!│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+!│▒▒┌─────┐░▒┌─────┐░▒┌──────────────┐░▒┌──────────────┐░▒┌──────────────┐░▒│
+!│▒▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│
+!│▒▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒▒▒▒┌──┐▒▒▒▒▒│░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│▓▒┌───────────┘░▒│
+!│▒▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▒▒▒▒▒│░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│▓▒│░▒▒▒▒▒▒▒▒▒▒▒▒▒│
+!│▒▒│▓▒▒▒▒└──┘▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▒▒▒▒▒│░▒│▓▒┌───────────┘░▒│▓▒└───────────┐░▒│
+!│▒▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│▓▒▒▒▒└──┘▒▒▒▒▒│░▒│▓▒│░▒▒▒▒▒▒▒▒▒▒▒▒▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│
+!│▒▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒┌┘░▒│▓▒└──────────┐░▒▒└───┐▓▒▒▒▒▒▒▒▒▒│░▒│
+!│▒▒└┐▒▒▒▒▒▒▒▒▒▒▒▒┌┘░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒└┐░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒│░▒▒▒▒▒▒│▓▒▒▒▒▒▒▒▒▒│░▒│
+!│▒▒▒│▒▒▒▒▒▒▒▒▒▒▒▒│░▒▒│▓▒▒▒▒┌──┐▓▒▒▒▒│░▒│▓▒┌──────────┘░▒▒┌─┐░│▓▒▒▒▒▒▒▒▒▒│░▒│
+!│▒▒┌┘▒▒▒▒▒▒▒▒▒▒▒▒└┐░▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒│░▒▒▒▒▒▒▒▒▒▒▒▒▒│▓│░│▓▒▒▒▒▒▒▒▒▒│░▒│
+!│▒▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒│░▒▒▒▒▒▒▒▒▒▒▒▒▒│▓│░│▓▒▒▒▒▒▒▒▒▒│░▒│
+!│▒▒│▓▒▒▒▒┌──┐▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒└───────────┐░▒│▓└─┘▓▒▒▒▒▒▒▒▒▒│░▒│
+!│▒▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒▒▒▒│░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│▓▒▒▒▒▒▒▒▒▒▒▒▒▒│░▒│
+!│▒▒└─────┘░▒└─────┘░▒└─────┘░▒└─────┘░▒└──────────────┘░▒└──────────────┘░▒│
+!│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+!└──┐┌──┐▒┌┐▓▒▒▒▒▒▒┌───┐┌┐┌┐▓▒▒▒▒▒▒▒▒┌──┐▓▒▒┌────┐┌┐▓▒▒┌───┐▓▒▒▒▒▒▒▒┌───────┘
+!   ││  │▒│└────┐▓▒│   ││││└────┐▓▒┌─┘  │▒▒▒│    │││▓▒▒│   │▓▒▒▒▒▒▒▒│▒▒▒▒
+!   ││  │▒│     │▓▒│   ││││ ▓▒▒▒│▓▒│    │▒▒▒│     │└┐▓▒│   │▓▒▒▒▒▒▒▒│▒
+!   ││  │▒│     │┌─┘   ││││ ▓   │▓▒│    │▒▒▒│     │ │▓▒│   │▓▒▒▒▒▒▒▒│▒
+!   ││  │▒│     ││▒    ││└┘     │▓▒│    │▒┌─┘       │▓┌┘   │▓▒▒▒▒▒▒▒│
+!   ││  │▓│     ││▒    ││       │▓▒│    │▒│         │▓│    │▓▒▒▒▒▒▒▒│
+!   ││  │▓│     ││     ││   ▓   │▓▒│    └┬┘         │▓│    │▓▒▒▒▒▒▒▒│
+!   ││  └─┘     ││     └┘       │▓▒│     │          │▓│    │▓▒▒▒▒▒▒▒│
+!   ││  ┌─┐     └┘▒      ┌┐     └┬┬┘                └─┘    └┬─┬┬─┬┬┬┘
+!   ││  │▒│              ││      ││                           ││▓│││
+!   └┘  │▓│       ▓      ││       │      │           ▒      │ ││  │
+!       └─┘              └┘                                   │   │
+!   ┌┐  ┌─┐            ┌┐         │                  ▒           │
+!   └┘  │▓│       ▓    ││                                     │
+!   ┌┐  └─┘            ││                                       ▓
+!   └┘                 └┘                                     │  │
+!                                                             │
+!
+!                                                           │
+
 URxvt.termName: rxvt-unicode
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
@@ -8,10 +45,11 @@ URxvt.allow_bold: true
 
 urxvt*scrollBar:            false
 
-URxvt.font: xft:Iosevka Term:pixelsize=12,xft:DejaVu Sans Mono:pixelsize=14,-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
-URxvt.boldFont: xft:Iosevka Term:pixelsize=12:bold,xft:DejaVu Sans Mono:pixelsize=14:bold
-URxvt.italicFont: xft:Iosevka Term:pixelsize=12:italic,xft:DejaVu Sans Mono:pixelsize=14:italic
-URxvt.bolditalicFont: xft:Iosevka Term:pixelsize=12:bold:italic,xft:DejaVu Sans Mono:pixelsize=14:bold:italic
+URxvt*font:             xft:FiraSans:regular:size=10
+URxvt*imFont:           xft:FiraSans:regular:size=10
+URxvt*boldFont:         xft:FiraSans:bold:size=10
+URxvt*italicFont:       xft:FiraSans:regular:size=10
+URxvt*boldItalicFont:   xft:FiraSans:regular:size=10
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 
@@ -22,67 +60,28 @@ URxvt.keysym.End:  \033[F
 URxvt.keysym.M-k: command:\033]720;1\007
 URxvt.keysym.M-j: command:\033]721;1\007
 
-#define base00 #070d0f
-#define base01 #0b161a
-#define base02 #000000
-#define base03 #323232
-#define base04 #858585
-#define base05 #d0cbaf
-#define base06 #b6bdca
-#define base07 #fffdff
-#define base08 #ea5c39
-#define base09 #ea5c39
-#define base0A #ee863e
-#define base0B #ee863e
-#define base0C #ef8e6d
-#define base0D #ef8e6d
-#define base0E #fefbb0
-#define base0F #fefbb0
+! XTerm
 
-*.foreground : base05
-#ifdef background_opacity
-*.background:   [background_opacity]base00
-#else
-*.background : base00
-#endif
-*.cursorColor : base05
-
-*.color0 : base00
-*.color1 : base08
-*.color2 : base0B
-*.color3 : base0A
-*.color4 : base0D
-*.color5 : base0E
-*.color6 : base0C
-*.color7 : base05
-
-*.color8  : base03
-*.color9  : base09
-*.color10 : base01
-*.color11 : base02
-*.color12 : base04
-*.color13 : base06
-*.color14 : base0F
-*.color15 : base07
-
-Xft*dpi:                    96
-Xft*antialias:              true
-Xft*hinting:                true
-Xft*hintstyle:		    hintfull
-Xft*rgba:		    rgb
-
+! General settings
+XTerm*geometry: 80x24
+XTerm*saveLines: 1024
 XTerm*scrollBar: False
-XTerm*loginshell: True
+XTerm*loginshell: False
+XTerm*cursorBlink: False
 
+! Fonts and Encoding
 XTerm*utf8: True
 XTerm*locale: True
 XTerm*utf8Title: True
 XTerm*renderFont: True
 XTerm*preeditType: Root
 XTerm*xftAntialias: true
-XTerm*faceName: FiraCode-Regular:size=12
+XTerm*faceName: Glass_TTY_VT220:size=13
 
+! Trim trailing spaces
 XTerm*trimSelection: true
+
+! Fix alt-key inputting
 XTerm*eightBitInput: false
 XTerm*metaSendsEscape: true
 
@@ -93,6 +92,9 @@ XTerm*translations: #override \
 
 ! Allow selecting email/url by double-click
 XTerm*charClass: 33:48,37-38:48,45-47:48,64:48,58:48,126:48,61:48,63:48,43:48,35:48
+
+XTerm*decTerminalID: vt340
+XTerm*numColorRegisters: 256
 
 ! Man pages colors
 
@@ -122,14 +124,59 @@ XClock*secondColor: rgba:80/7a/86/ff
 
 st.termname:    st-256color
 !st.font:        FiraCode-Regular:size=7:hinting=full:antialias=false
-st.font:        dina10px:size=7:hinting=full:antialias=false
+st.font:        monaco:size=7:hinting=full:antialias=false
 st.cwscale:     1.1
 st.chscale:     1.1
 st.bellvolume:  0
 st.borderpx:    10px
 
-rofi.color-enabled: true
-rofi.color-window: #ffffff, #ffffff, #ffffff
-rofi.color-normal: #ffffff, #474c57, #ffffff, #ffffff, #4ec2e8
-rofi.color-active: #ffffff, #fec7cd, #ffffff, #ffffff, #95c1c0
-rofi.color-urgent: #ffffff, #f59335, #ffffff, #ffffff, #f59335  
+!TomorrowNightBlue
+#define t_background        #002451
+#define t_current_line      #00346e
+#define t_selection      	#003f8e
+#define t_foreground      	#ffffff
+#define t_comment	     	#7285b7
+#define t_red		     	#ff9da4
+#define t_orange	     	#ffc58f
+#define t_yellow        	#ffeead
+#define t_green	        	#d1f1a9
+#define t_aqua	        	#99ffff
+#define t_blue	        	#bbdaff
+#define t_purple        	#ebbbff
+
+
+*.foreground:   t_foreground
+*.background:   t_background
+*.cursorColor:  #aeafad
+
+! Black / Grey
+*.color0:       #000000
+*.color8:       #666666
+
+! Red / Bright Red
+*.color1:       t_red
+*.color9:       #FF3334
+
+! Green + Bright Green
+*.color2:       t_green
+*.color10:      #9ec400
+
+! Yellow (Orange) + Bright Yellow (Yellow)
+*.color3:       t_orange
+*.color11:      t_yellow
+
+! Blue + Bright Blue
+*.color4:       t_blue
+*.color12:      t_blue
+
+! Magenta (Purple) + Bright Magenta
+*.color5:       t_purple
+*.color13:      #b777e0
+
+! Cyan (Aqua) + Bright Cyan
+*.color6:       t_aqua
+*.color14:      #54ced6
+
+! Light Grey (Selection) + White (Current Line)
+*.color7:       t_selection
+*.color15:      t_current_line
