@@ -142,7 +142,9 @@ c.content.plugins = True
 # c.content.proxy = 'system'
 # c.content.proxy_dns_requests = True
 # c.content.ssl_strict = 'ask'
-# c.content.user_stylesheets = []
+c.content.user_stylesheets = "stylesheets/default.css"
+# c.content.user_stylesheets = "stylesheets/wiki.css"
+# c.content.user_stylesheets = "stylesheets/github.css"
 # c.content.webgl = True
 # c.content.xss_auditing = False
 
