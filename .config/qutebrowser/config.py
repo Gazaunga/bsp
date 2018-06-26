@@ -1,5 +1,7 @@
 import os
 
+config.source('themes/base16-dracula.config.py')
+
 # c.confirm_quit = ['never']
 
 c.editor.command = [os.environ['EDITOR'], '-f', '{}']
