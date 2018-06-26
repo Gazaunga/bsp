@@ -249,7 +249,14 @@ c.tabs.show = 'multiple'
 # c.url.auto_search = 'naive'
 # c.url.default_page = 'https://start.duckduckgo.com/'
 # c.url.incdec_segments = ['path', 'query']
-c.url.searchengines = {'DEFAULT': 'http://www.duckduckgoog.com/search?q={}'}
+c.url.searchengines = { 
+        "DEFAULT" : "https://duckduckgo.com/?q={}", 
+        "w" : "https://www.wikipedia.org/w/index.php?title=Special:Search&search={}",
+        "a" : "https://wiki.archlinux.org/index.php?search={}",
+        "gh" : "https://github.com/search?utf8=%E2%9C%93&q={}",
+        "y" : "https://www.youtube.com/results?search_query={}",
+        "gm" : "https://www.google.com/maps?q={}",
+        }
 c.url.start_pages = ['/home/gazbit/.startpage/vulgrim/index.html']
 # c.url.yank_ignored_parameters = ['ref', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content']
 
