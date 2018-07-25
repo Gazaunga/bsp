@@ -1,0 +1,18 @@
+#!/bin/sh
+
+remove Lock = Escape
+add Lock = Caps_Lock
+keycode 66 = Caps_Lock
+keycode 9 = Escape
+
+! Clear must be done before configuring it
+keycode 31 =
+keycode 44 =
+keycode 45 =
+keycode 46 =
+
+! Configuration (first column normal type, second with shift and second with Mod_switch)
+keycode 31 = i I Up
+keycode 44 = j J Left
+keycode 45 = k K Down
+keycode 46 = l L Right
