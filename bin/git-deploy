@@ -1,5 +1,15 @@
 #!/bin/bash
 
+set -ex
+
+git config --global user.name "jeremyottley"
+git config --global user.email "jeremy.ottley@gmail.com"
+git config --global core.autocrlf input
+git config --global core.safecrlf true
+git config --system core.editor emacs
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=18000'
+git config --global push.default simple
 read -r -p 'Commit message: ' desc  # prompt user for commit message
 git add .                           # track all files 
 git add -u                          # track deletes
