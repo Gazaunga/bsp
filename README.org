@@ -1,1 +1,3 @@
-[[./dotfiles.jpg]]
+#+BEGIN_EXAMPLE
+[[https://github.com/JeremyOttley/bsp/blob/master/dotfiles.png]]
+#+END_EXAMPLE
